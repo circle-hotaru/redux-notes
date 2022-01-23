@@ -11,7 +11,7 @@ const VisibilityFilter = () => {
       <input
         type="radio"
         name="filter"
-        onChange={() => dispatch(filterChange("All"))}
+        onChange={() => dispatch(filterChange("ALL"))}
       />
       important
       <input
